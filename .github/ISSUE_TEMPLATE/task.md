@@ -3,7 +3,7 @@ name: Task
 about: Suggest a task to complete
 title: '[Task] - '
 labels: 'task'
-type: 'Task'
+type: task
 assignees: ''
 
 ---

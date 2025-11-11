@@ -4,6 +4,29 @@ title: "[Feature] - "
 labels: ["feature"]
 assignees: []
 body:
+  - type: dropdown
+    id: persona
+    attributes:
+      label: Persona
+      options:
+        - Admin
+        - Marketing
+        - Guest 
+        - Subscriber
+        - Support
+    validations:
+      required: true
+  - type: dropdown
+    id: functional-area
+    attributes:
+      label: Functional Area
+      options:
+        - Billing
+        - Collection
+        - Onboarding
+        - Profile
+    validations:
+      required: true
   - type: textarea
     id: problem
     attributes:
@@ -22,13 +45,6 @@ body:
     id: alternatives
     attributes:
       label: Alternatives you've considered
-  - type: dropdown
-    id: priority
-    attributes:
-      label: Priority
-      options: ["low", "medium", "high", "critical"]
-    validations:
-      required: true
   - type: textarea
     id: context
     attributes:
